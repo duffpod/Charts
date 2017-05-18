@@ -170,6 +170,8 @@ open class AxisRendererBase: Renderer
                 {
                     n += 1
                 }
+            }else if interval != 0.0 && last == first {
+                n += 1
             }
             
             // Ensure stops contains at least n elements.
